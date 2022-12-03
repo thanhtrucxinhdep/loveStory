@@ -37,179 +37,179 @@ setInterval(timeHandle,1000)
 
 const data = [
     {
-        imgSrc: '/images/img1.jpg',
+        imgSrc: '../images/img1.jpg',
         date: '20/02/2022',
         content: 'Kỉ niệm đi ăn Dokki sinh nhật của ú'
     },
     {
-        imgSrc: '/images/img2.jpg',
+        imgSrc: '../images/img2.jpg',
         date: '20/02/2022',
         content: 'Lại là ăn sinh nhật hehe'
     },
     {
-        imgSrc: '/images/img3.jpg',
+        imgSrc: '../images/img3.jpg',
         date: '20/02/2022',
         content: 'heo chụp camera thấy 2 người'
     },
     {
-        imgSrc: '/images/img4.jpg',
+        imgSrc: '../images/img4.jpg',
         date: '30/06/2022',
         content: 'Bữa cuối kì trước khi nghỉ để ôn thi đại học'
     },
     {
-        imgSrc: '/images/img5.jpg',
+        imgSrc: '../images/img5.jpg',
         date: '30/06/2022',
         content: 'Lại chụp hình tiếp'
     },
     {
-        imgSrc: '/images/img6.jpg',
+        imgSrc: '../images/img6.jpg',
         date: '01/07/2022',
         content: 'Ngày đi nhận giấy báo dự thi, ngày này chia tay mái trường cấp 3'
     },
     {
-        imgSrc: '/images/img7.jpg',
+        imgSrc: '../images/img7.jpg',
         date: '01/07/2022',
         content: 'Mãi nhớ ngày này huhu'
     },
     {
-        imgSrc: '/images/img8.jpg',
+        imgSrc: '../images/img8.jpg',
         date: '10/07/2022',
         content: 'Ngày này đi karaoke sau khi thi xong, ú làm mất dây đeo của heo mà ai ngờ nó trên nón kkk'
     },
     {
-        imgSrc: '/images/img9.jpg',
+        imgSrc: '../images/img9.jpg',
         date: '13/07/2022',
         content: 'Dẫn heo đi Aeon chơi sau khi thi xong'
     },
     {
-        imgSrc: '/images/img10.jpg',
+        imgSrc: '../images/img10.jpg',
         date: '13/07/2022',
         content: 'Chụp tiếp :v'
     },
     {
-        imgSrc: '/images/img11.jpg',
+        imgSrc: '../images/img11.jpg',
         date: '13/07/2022',
         content: 'Thử nón đôi :v'
     },
     {
-        imgSrc: '/images/img12.jpg',
+        imgSrc: '../images/img12.jpg',
         date: '13/07/2022',
         content: 'Lén chụp hình với gương kkk'
     },
     {
-        imgSrc: '/images/img13.jpg',
+        imgSrc: '../images/img13.jpg',
         date: '25/07/2022',
         content: 'Đi xem phim nèee'
     },
     {
-        imgSrc: '/images/img14.jpg',
+        imgSrc: '../images/img14.jpg',
         date: '25/07/2022',
         content: 'Chụp cho heo mà heo chê xấu huhu'
     },
     {
-        imgSrc: '/images/img15.jpg',
+        imgSrc: '../images/img15.jpg',
         date: '09/08/2022',
         content: 'Dẫn heo đi thảo cầm viên sau khi ú bỏ heo ở nhà đi chơi kkk'
     }
     ,
     {
-        imgSrc: '/images/img16.jpg',
+        imgSrc: '../images/img16.jpg',
         date: '09/08/2022',
         content: 'Dẫn heo đi thảo cầm viên sau khi ú bỏ heo ở nhà đi chơi kkk'
     }
     ,
     {
-        imgSrc: '/images/img17.jpg',
+        imgSrc: '../images/img17.jpg',
         date: '09/08/2022',
         content: 'Dẫn heo đi thảo cầm viên sau khi ú bỏ heo ở nhà đi chơi kkk'
     }
     ,
     {
-        imgSrc: '/images/img18.jpg',
+        imgSrc: '../images/img18.jpg',
         date: '09/08/2022',
         content: 'Dẫn heo đi thảo cầm viên sau khi ú bỏ heo ở nhà đi chơi kkk'
     }
     ,
     {
-        imgSrc: '/images/img19.jpg',
+        imgSrc: '../images/img19.jpg',
         date: '25/08/2022',
         content: 'Ú và heo cùng nhau đi thăm trường UIT nè hehe'
     }
     ,
     {
-        imgSrc: '/images/img20.jpg',
+        imgSrc: '../images/img20.jpg',
         date: '25/08/2022',
         content: 'Check-in nhà vệ sinh UIT nè'
     }
     ,
     {
-        imgSrc: '/images/img21.jpg',
+        imgSrc: '../images/img21.jpg',
         date: '25/08/2022',
         content: 'Thăm thư viện UIT nè'
     }
     ,
     {
-        imgSrc: '/images/img22.jpg',
+        imgSrc: '../images/img22.jpg',
         date: '25/08/2022',
         content: 'Sau đó đón xe đi Dinh Độc Lập chơi'
     }
     ,
     {
-        imgSrc: '/images/img32.jpg',
+        imgSrc: '../images/img32.jpg',
         date: '25/08/2022',
         content: 'Lúc này heo chửi ú chụp xấu nên không có hình đẹp hehe quá tiếc'
     }
     ,
     {
-        imgSrc: '/images/img23.jpg',
+        imgSrc: '../images/img23.jpg',
         date: '01/09/2022',
         content: 'Đi hội chợ ẩm thực ở nhà văn hóa nè mà mưa hehe'
     }
     ,
     {
-        imgSrc: '/images/img24.jpg',
+        imgSrc: '../images/img24.jpg',
         date: '24/09/2022',
         content: 'Tranh thủ mua đồ 2hand trước khi đi show nhạc nè'
     }
     ,
     {
-        imgSrc: '/images/img25.jpg',
+        imgSrc: '../images/img25.jpg',
         date: '24/09/2022',
         content: 'Đi xem Phương Ly với Trúc Nhân'
     }
     ,
     {
-        imgSrc: '/images/img26.jpg',
+        imgSrc: '../images/img26.jpg',
         date: '02/10/2022',
         content: 'Ngày heo xuống nhận trọ ú và heo làm lành nè'
     }
     ,
     {
-        imgSrc: '/images/img27.jpg',
+        imgSrc: '../images/img27.jpg',
         date: '07/10/2022',
         content: 'Ngày ú chở heo đi Đền vua Hùng đi ngoại khóa của UFM nè'
     }
     ,
     {
-        imgSrc: '/images/img28.jpg',
+        imgSrc: '../images/img28.jpg',
         date: '30/10/2022',
         content: 'Đi Gigamall Thủ Đức ăn Spicy Box nè'
     }
     ,
     {
-        imgSrc: '/images/img29.jpg',
+        imgSrc: '../images/img29.jpg',
         date: '03/11/2022',
         content: 'Kỉ niệm lần đầu ov9 cùng nhau hehe'
     }
     ,
     {
-        imgSrc: '/images/img30.jpg',
+        imgSrc: '../images/img30.jpg',
         date: '10/11/2022',
         content: 'Đi show gặp người nổi tiếng và làm lành sau cuộc cãi nhau xém chia tay kkk'
     }
     ,
     {
-        imgSrc: '/images/img31.jpg',
+        imgSrc: '../images/img31.jpg',
         date: '19/11/2022',
         content: 'Dẫn heo đi gặp Hiếu Thứ 2 và ov9 ở Cloud :v'
     }
