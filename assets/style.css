@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.container .navbar{
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.navbar_logo,
+.navbar_time{
+    padding: 16px;
+    margin-right: 16px;
+    color: black;
+    font-weight: bold;
+}
+.navbar_time{
+    display: flex;
+}
+.navbar_time div{
+    margin-right: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar_time div p {
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar_time div:nth-child(2) p,
+.navbar_time div:nth-child(4) p,
+.navbar_time div:nth-child(6) p{
+    color: rgb(104, 155, 202);
+}
+
+.navbar_time div:nth-child(2) span,
+.navbar_time div:nth-child(4) span,
+.navbar_time div:nth-child(6) span {
+    color: rgb(104, 155, 202);
+}
+
+.slider{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    width: 200%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.content-card{
+    color: black;
+    height: 100%;
+    width: 33.333%;
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+.content-card-image{
+    height: 60%;
+}
+.content-card-text{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-card-text p {
+    margin-top: 12px;
+    font-size: 14px;
+}
+.content-card-text h5 {
+    font-size: 16px;
+}
+.content-card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.prev {
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    transform: translate(-16%,-50%);
+}
+.next {
+    position: absolute;
+    top: 50%;
+    right: 16%;
+    transform: translate(16%,-50%)
+}
+.prev,.next{
+    font-size: 48px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    border: none;
+}
+.prev:hover,.next:hover{
+    opacity: 1;
+}
+
+.intro-heart{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    transition: all 2s linear;
+    opacity: 1;
+}
+.intro-heart-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.intro-heart-content span{
+    color: white;
+    font-size: 64px;
+    margin-right: 24px;
+}
+.intro-heart-content p {
+    position: absolute;
+    left: 39%;
+    transform: translateX(-39%);
+    font-size: 24px;
+    top: 100px;
+    color: white;
+}
+.heart-icon{
+    color: rgba(255, 0, 140, 0.456);
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.5s linear;
+    transform: scale(1);
+    animation: pulse 3s linear infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1.1);
+    }
+    20%{
+        transform: scale(0.9);
+    }
+    30%{
+        transform: scale(1.2);
+    }
+    40%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    60%{
+        transform: scale(0.9);
+    }
+    70%{
+        transform: scale(1.2);
+    }
+    80%{
+        transform: scale(0.8);
+    }
+    90%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(0.85);
+    }
+}
+
+.heart-icon:hover{
+    opacity: 1;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 1;
+    overflow: hidden;
+    transition: all 2s linear;
+}
+.dynamic-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.dynamic-text li{
+    color: white;
+    font-size: 24px;
+    list-style: none;
+}
+.dynamic-text li span{
+    position: relative;
+}
+
+.dynamic-text li span::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-left: 2px solid white;
+    animation: typing 10s steps(100) forwards;
+    background-color: black;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        background-color: transparent;
+    }
+}
+.wrapper.unactive,
+.intro-heart.unactive{
+    opacity: 0;
+    visibility: hidden;
+}
